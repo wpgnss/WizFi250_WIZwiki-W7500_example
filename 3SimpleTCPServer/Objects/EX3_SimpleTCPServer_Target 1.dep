@@ -1,0 +1,143 @@
+Dependencies for Project 'EX3_SimpleTCPServer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM\startup_W7500x.s)(0x5594C78E)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "ARMCM0 SETA 1"--list .\listings\startup_w7500x.lst --xref -o .\objects\startup_w7500x.o --depend .\objects\startup_w7500x.d)
+F (.\Libraries\CMSIS\Device\WIZnet\W7500\Source\system_W7500x.c)(0x5594C78E)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\system_w7500x.o --omf_browse .\objects\system_w7500x.crf --depend .\objects\system_w7500x.d)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+F (.\Libraries\W7500x_stdPeriph_Driver\src\W7500x_gpio.c)(0x55827A8C)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\w7500x_gpio.o --omf_browse .\objects\w7500x_gpio.crf --depend .\objects\w7500x_gpio.d)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+F (.\Libraries\W7500x_stdPeriph_Driver\src\W7500x_uart.c)(0x5594EC06)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\w7500x_uart.o --omf_browse .\objects\w7500x_uart.crf --depend .\objects\w7500x_uart.d)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+F (.\main.c)(0x55A7801A)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+I (WizFi250Handler.h)(0x55B61328)
+F (.\retarget.c)(0x5594BC8E)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C237A8)
+F (.\W7500x_it.c)(0x55A768F2)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\w7500x_it.o --omf_browse .\objects\w7500x_it.crf --depend .\objects\w7500x_it.d)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)
+I (WizFi250Handler.h)(0x55B61328)
+F (.\WizFi250Handler.c)(0x55B61334)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Device\WIZnet\W7500\Include -I.\Libraries\W7500x_stdPeriph_Driver\inc -I.\Libraries\CMSIS\Include -I..\3SimpleTCPServer-I "D:\1.WIZnet\4. WizFi250 강의\WizFi250-W7500 Example\3SimpleTCPServer\RTE"-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM0 -DCORTEX_M0 -DUSE_STDPERIPH_DRIVER-o .\objects\wizfi250handler.o --omf_browse .\objects\wizfi250handler.crf --depend .\objects\wizfi250handler.d)
+I (WizFi250Handler.h)(0x55B61328)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x5594EFBE)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55827A8C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55827A8C)
+I (.\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x55827A8C)
+I (..\3SimpleTCPServer\W7500x_conf.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x55827A8C)
+I (.\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x55827A8C)

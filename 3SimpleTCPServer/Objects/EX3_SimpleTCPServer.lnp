@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\objects\startup_w7500x.o"
+".\objects\system_w7500x.o"
+".\objects\w7500x_gpio.o"
+".\objects\w7500x_uart.o"
+".\objects\main.o"
+".\objects\retarget.o"
+".\objects\w7500x_it.o"
+".\objects\wizfi250handler.o"
+--strict --scatter ".\Objects\EX3_SimpleTCPServer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\EX3_SimpleTCPServer.map" -o .\Objects\EX3_SimpleTCPServer.axf
